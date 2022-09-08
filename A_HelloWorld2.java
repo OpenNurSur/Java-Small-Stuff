@@ -1,3 +1,11 @@
+/*<----- Click this to Expand for Instructions
+ * 
+ * Exercise 1.3 - COMMENTS
+ * 
+ * This program will not run. To fix it, Line 17 and 21-23 must be commented out.
+ * 
+ * Recall that you can comment a single line using the syntax //, and a block of text using the /* syntax as in this prefacing comment
+ */
 public class A_HelloWorld2{
 	public static void main(String[] args) {
 		System.out.println("Hello Java!");
@@ -15,3 +23,4 @@ public class A_HelloWorld2{
 	    System.out.println("You are a fun language!");
 	}
 }
+//ez
