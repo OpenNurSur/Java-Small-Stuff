@@ -25,9 +25,9 @@ public class Assignment_1A {
         //printf prints a string on the screen using the 'format string', this includes new lines such as \n 
         //"2f" tells the printf method to print or output a floating value, in this case to 2 decimals, or we could change 2f to 3f per example if we want to print out up to 3 decimals.
         
-        //FIRST METHOD:  System.out.printf(number + " Divided by, " + a + " = " + "%.2f %n",totalresult);
+        //System.out.printf(number + " Divided by, " + a + " = " + "%.2f %n",totalresult);
         //SECOND METHOD:
-        System.out.println(number + " Divided by, " + a + " = " + ((int)((totalresult)*100+00.5))/100.0);
+        System.out.println(number + " Divided by, " + a + " = " + ((int)((totalresult)*100+0.005))/100.0);
          //There are several ways to round, I personally prefer the second method so i'll be using the second method in this case.    
     }
         myName.close();
@@ -39,7 +39,7 @@ public class Assignment_1A {
 // 1) Was your program written efficiently? Why or why not? If it wasn’t efficient, can you modify it to use fewer lines of code for the calculations?
 
 //Ans : At first, my program was not written efficiently due to the use of repeated lines, so what I did was using a loop instead which allowed the program to first run more efficiently but also saved a lot of space(lines)
-//Ans2 : To keep things simple and efficient I have used a one line code to round up to results to two decimal places.
+//Ans2 : To keep things simple and efficient I have used a one line code to round up to results to two decimals places.
 
 //2) Why are the outputs in the sample printout all rounded off? How do the different data types affect the accuracy of the answers? Research or test out changes that would get more accurate quotients. Can you round your answers to two decimal places?
 
