@@ -20,8 +20,11 @@ public class Assignment_1A {
         for(double i = 1; i < 11.0;i++ ){ //Integer "i" starts at 1 and is less than 11 meaning it would end at 10. 
         int a = (int) i;
         double totalresult = number / i; //Variable named totalresult which divides the user's inputed number by all of the numbers from 1 to 10
-        double roundthis = (double) Math.round(totalresult * 100) / 100; 
-        System.out.println(number + " Divided by, " + a + " = " + roundthis);
+        //double roundthis = (double) Math.round(totalresult * 100) / 100; < We can use Match.round but in this case we are not allowed to.
+
+        //printf prints a string on the screen using the 'format string', this includes new lines such as \n 
+        //"2f" tells the printf method to print or output a floating value, in this case to 2 decimals, or we could change 2f to 3f per example if we want to print out up to 3 decimals.
+        System.out.printf(number + " Divided by, " + a + " = " + "%.2f %n",totalresult);
         }
         myName.close();
 
